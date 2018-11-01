@@ -23,6 +23,15 @@ import './ReactListKeys'
 import './ReactListKeys2'
 import './ReactKeys'
 import './ReactKeys2'
+import './ReactComponnetAPIs'
+import './ReactComponentLifecycle'
+import './ReactComponentLifecycle2'
+import './ReactAJAX'
+import './ReactFormEvent'
+import './ReactSelect'
+import './ReactFormInputs'
+import './ReactChildComponents'
+import './ReactRefs'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
