@@ -19,6 +19,10 @@ import './ReactToggleEventHandle'
 import './LoginControl'
 import './ReactOperators'
 import './ReactHideComponnent'
+import './ReactListKeys'
+import './ReactListKeys2'
+import './ReactKeys'
+import './ReactKeys2'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
