@@ -16,7 +16,7 @@ ReactDOM.render(
     <div>
         {arr}
     <h1 style={myStyle}> this is JSX Example </h1>
-    <h1>Hello, world! 1+1 = {1+1 == 2 ? 'true':'False'}</h1>
+    <h1>Hello, world! 1+1 = {1+1 === 2 ? 'true':'False'}</h1>
         {/* this is comments ..................*/}
     </div>,
     document.getElementById('jsx_example')

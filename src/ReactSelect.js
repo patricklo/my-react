@@ -20,7 +20,7 @@ class FlavorForm extends React.Component{
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
-                <lable>
+                <label>
                     chose favorite website:
                     <select value={this.state.value} onChange={this.handleChange}>
                         <option value="gg">google</option>
@@ -29,7 +29,7 @@ class FlavorForm extends React.Component{
                         <option value="fb">facebook</option>
                         <option value="ba">baidu</option>
                     </select>
-                </lable>
+                </label>
                 <input type="submit" value="Commit"></input>
             </form>
         )
